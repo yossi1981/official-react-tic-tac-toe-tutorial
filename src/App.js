@@ -81,12 +81,23 @@ export default function Game() {
     else {
       description = 'Go to game start'
     }
+    
+    const buttonLi = (
+        <li key={move}>
+        <button onClick={() => { jumpTo(move) }}>{description}</button>
+        </li>
+      )
+
+    const textLi = (
+        <li key={move}>
+        {description}
+        </li>
+      )
 
     return (
-      <li key={move}>
-        <button onClick={() => { jumpTo(move) }}>{description}</button>
-      </li>
+       move == currentMove ? textLi : buttonLi
     )
+
   })
   return (
     <div className="game">
