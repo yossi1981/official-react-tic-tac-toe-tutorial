@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-official-tic-tac-toe-tutorial/static/css/main.e044d89e.css",
-    "main.js": "/react-official-tic-tac-toe-tutorial/static/js/main.718d90c7.js",
-    "index.html": "/react-official-tic-tac-toe-tutorial/index.html",
-    "main.e044d89e.css.map": "/react-official-tic-tac-toe-tutorial/static/css/main.e044d89e.css.map",
-    "main.718d90c7.js.map": "/react-official-tic-tac-toe-tutorial/static/js/main.718d90c7.js.map"
+    "main.css": "/static/css/main.e044d89e.css",
+    "main.js": "/static/js/main.718d90c7.js",
+    "index.html": "/index.html",
+    "main.e044d89e.css.map": "/static/css/main.e044d89e.css.map",
+    "main.718d90c7.js.map": "/static/js/main.718d90c7.js.map"
   },
   "entrypoints": [
     "static/css/main.e044d89e.css",
